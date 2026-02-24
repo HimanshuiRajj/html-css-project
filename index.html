@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Basic Meta -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta -->
+    <meta name="description" content="Ravi - Frontend Developer Portfolio">
+    <meta name="keywords" content="Ravi, Frontend Developer, HTML, CSS, Portfolio">
+    <meta name="author" content="Ravi">
+
+    <!-- Open Graph (Social Sharing) -->
+    <meta property="og:title" content="Ravi Portfolio">
+    <meta property="og:description" content="Frontend Developer Portfolio Website">
+    <meta property="og:type" content="website">
+
+    <title>Ravi | Frontend Developer</title>
+     <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header role="banner">
+    <h1>R7</h1>
+    <p><strong>Frontend Developer</strong></p>
+
+    <nav role="navigation" aria-label="Main Navigation">
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main role="main">
+
+<!-- ================= ABOUT ================= -->
+<section id="about" aria-labelledby="about-heading">
+    <h2 id="about-heading">About Me</h2>
+
+    <article>
+        <p>
+            Hello, I am <abbr title="Hyper Text Markup Language">HTML</abbr> focused
+            developer building structured and accessible web applications.
+        </p>
+
+        <figure>
+            <img src="h7.jpg" 
+                 alt="Ravi Profile Picture"
+                 loading="lazy">
+            <figcaption>Professional Profile</figcaption>
+        </figure>
+    </article>
+</section>
+
+<!-- ================= SKILLS ================= -->
+<section id="skills" aria-labelledby="skills-heading">
+    <h2 id="skills-heading">Skills</h2>
+
+    <dl>
+        <dt>HTML</dt>
+        <dd>Semantic markup & accessibility</dd>
+
+        <dt>CSS</dt>
+        <dd>Responsive & modern layouts</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Interactive UI development</dd>
+    </dl>
+
+    <label for="html-progress">HTML Proficiency</label>
+    <progress id="html-progress" value="90" max="100">90%</progress>
+</section>
+
+<!-- ================= PROJECTS ================= -->
+<section id="projects" aria-labelledby="project-heading">
+    <h2 id="project-heading">Projects</h2>
+
+    <article>
+        <h3>College Portal</h3>
+        <p>Student & admin management system.</p>
+
+        <details>
+            <summary>View Details</summary>
+            <p>Built with semantic HTML and responsive layout.</p>
+        </details>
+    </article>
+
+    <article>
+        <h3>Landing Page</h3>
+        <p>Modern UI landing page.</p>
+
+        <meter value="0.8">80%</meter>
+    </article>
+
+</section>
+
+<!-- ================= CONTACT ================= -->
+<section id="contact" aria-labelledby="contact-heading">
+    <h2 id="contact-heading">Contact Me</h2>
+
+    <form method="post" autocomplete="on">
+
+        <fieldset>
+            <legend>Send a Message</legend>
+
+            <label for="name">Name</label>
+            <input id="name" type="text" required>
+
+            <label for="email">Email</label>
+            <input id="email" type="email" required>
+
+            <label for="message">Message</label>
+            <textarea id="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </fieldset>
+
+    </form>
+
+</section>
+
+</main>
+
+<aside>
+    <h3>Quick Info</h3>
+    <p>Available for freelance work.</p>
+</aside>
+
+<footer role="contentinfo">
+    <address>
+        Contact at: 
+        <a href="mailto:ravi@example.com">ravi@example.com</a>
+    </address>
+
+    <p>
+        &copy; <time datetime="2026">2026</time> Ravi
+    </p>
+</footer>
+
+</body>
+</html>
